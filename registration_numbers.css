@@ -1,0 +1,84 @@
+body{
+    background-image: url(car1.jpg);
+    background-attachment: fixed;
+}
+
+#Reghead{
+    background-color:burlywood;
+    margin-left: 120px;
+    margin-right: 140px;
+}
+
+h1{
+    color:black;
+    font-size: 70px;
+}
+
+H2{
+    font-size: 60px;
+}
+
+#enteredRegNumbers{
+    list-style-type: none;
+}
+#insert{
+    height: 50px;
+    width: 195px;
+    font-size: px;
+    border: 20px solid black; 
+}
+
+
+#btn{
+     height: 50px;
+    width: 125px;
+    font-size: px;
+}
+
+#regNum{
+     height: 50px;
+    width: 125px;
+    background-color: gold;
+   border-radius: 5px;
+    border: 4px solid black;
+}
+li{
+     height: 50px;
+    width: 400px;
+    border-radius: 5px;
+    border: 4px solid black;
+     background-color: gold;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+form{
+    background-color:burlywood;
+    height: 70px;
+     margin-left: 120px;
+    margin-right: 140px;
+}
+#reg{
+    text-transform: uppercase;
+}
+#reg, #btname{
+    text-align: center;
+    height: 50px;
+    width: 400px;
+    position:relative;
+    bottom: -10px;
+    margin-left: 40px;
+    margin-right: 10px; 
+}
+#display{
+    margin-left: 120px;
+    margin-right: 140px;   
+    position: static;
+}
+#locations{
+    align-content: center;
+    height: 50px;
+    width: 400px;
+    position:relative;
+}

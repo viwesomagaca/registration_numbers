@@ -1,0 +1,37 @@
+<html>
+    <title>Registration Numbers</title>
+    <head>
+        <link rel="stylesheet" href="registration_numbers.css">
+     
+    </head>
+    <body>
+     <div id="Reghead">
+    <h1 align="center">Registration Numbers</h1>
+         </div>
+    <form id="details" align="center">
+        
+    <input type="text"  id="reg" placeholder="PLEASE ENTER YOUR REG NUMBER">
+        
+    <button type="button" id="btname" value=" " onclick="display();">Add </button>
+    </form>
+        
+        <div id="location" align="center">
+            <input id="option" list="list" placeholder="search for a Location">
+            <button type="button" id="filterbtn" onclick="filter()">FILTER</button>
+            
+           <datalist id="list">
+               <option id="all" name="All" >All</option>
+               <option id="capetown" name="Capetown" >Cape Town</option>
+               <option id="bellville" name="Bellville" >Bellville</option>
+                <option id="paarl" name="Paarl" >Paarl</option>
+                <option id="gauteng" name="Gauteng" >Gauteng</option>
+            </datalist>
+        </div>
+        
+        <div id="display" align="center">
+       <h2>Reg Numbers</h2>
+        <ul id="enteredRegNumbers"></ul>
+            </div>
+    <script type="text/javascript" src="registration_numbers.js"></script>
+    </body>
+</html>
