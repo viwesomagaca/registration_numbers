@@ -2,23 +2,25 @@
     <title>Registration Numbers</title>
     <head>
         <link rel="stylesheet" href="registration_numbers.css">
-     
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Jim+Nightshade|Griffy|Playfair+Display|Kaushan+Script" rel="stylesheet">
     </head>
     <body>
-     <div id="Reghead">
+    <div class="jumbotron">
     <h1 align="center">Registration Numbers</h1>
          </div>
     <form id="details" align="center">
-        
-    <input type="text"  id="reg" placeholder="PLEASE ENTER YOUR REG NUMBER">
-        
-    <button type="button" id="btname" value=" " onclick="display();">Add </button>
+
+    <input type="text" class="form-control" id="reg" placeholder="Please type in tour registration numbers">
+    <br>
+    <input type="button" class="btn btn-primary btn-lg" id="btname" value="Add" onclick="display();">
     </form>
-        
+
+
         <div id="location" align="center">
-            <input id="option" list="list" placeholder="search for a Location">
-            <button type="button" id="filterbtn" onclick="filter()">FILTER</button>
-            
+            <input class="form-control" id="option" list="list" placeholder="search for a Location">
+            <input class="btn btn-primary btn-lg" type="button" id="filterbtn" value="Filter" onclick="filter()">
+
            <datalist id="list">
                <option id="all" name="All" >All</option>
                <option id="capetown" name="Capetown" >Cape Town</option>
@@ -27,10 +29,10 @@
                 <option id="gauteng" name="Gauteng" >Gauteng</option>
             </datalist>
         </div>
-        
+
         <div id="display" align="center">
        <h2>Reg Numbers</h2>
-        <ul id="enteredRegNumbers"></ul>
+        <ul class="list-group" id="enteredRegNumbers"></ul>
             </div>
     <script type="text/javascript" src="registration_numbers.js"></script>
     </body>
